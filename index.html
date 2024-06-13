@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Welcome to the Dice Game!</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="./images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="./images/dice6.png">
+      </div>
+
+    </div>
+    <div class="container">
+      <button class="first_button" onclick="diceGame()"> <img class="img3" src="./images/dicethrowing.png" alt="dice throwing"> </button>
+      <p> Throw the dices! </p>
+      <audio id="myAudio"> <source src="./audio/keygen_explosion.mp3" type="audio/mp3"></audio>
+        <p class="pmusic"> Audio </p>
+        <button onclick="play()" type="button"> <img class="img4" src="./images/volume-up.png" height="50" alt=""> </button>
+        <button onclick="pause()" type="button"> <img class="img4" src="./images/mute.png" height="50" alt=""> </button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+
+
+  
+
+  <footer>
+    Derviscan Deda yourwebsite 🎲 yourwebsite 🎲 com add your website here
+  </footer>
+</html>
